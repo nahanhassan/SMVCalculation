@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pretty Group|IE & Costing Team</title>
+  </head>
+  <body>
+    <header>
+      <!-- nav section  -->
+      <nav class="block justify-center">
+        <div class="flex justify-center mb-5">
+          <h1 id="dis" class="text-2xl font-bold text-blue-500 mx-auto">
+            Welcome to Pretty Group
+          </h1>
+        </div>
+        <div class="flex justify-center space-x-2">
+          <button class="btn btn-primary">Industrial Engineering</button>
+          <button class="btn btn-secondary">Costing</button>
+        </div>
+      </nav>
+    </header>
+    <!-- main section  -->
+    <main class="mt-5 w-1/2 mx-auto space-y-2">
+      <label class="input input-bordered flex items-center gap-2">
+        <input
+          id="ct"
+          type="text"
+          class="grow"
+          placeholder="Average Cycle Time"
+        />
+      </label>
+      <label class="input input-bordered flex items-center gap-2">
+        <input id="rf" type="text" class="grow" placeholder="Rating Factor" />
+      </label>
+      <label class="input input-bordered flex items-center gap-2">
+        <input id="alw" type="text" class="grow" placeholder="Allowance" />
+      </label>
+      <div class="card-actions justify-center mt-2">
+        <button id="cal" class="btn btn-primary">Calculation</button>
+      </div>
+    </main>
+
+    <!-- <script src="/app.js"></script> -->
+    <script src="/script.js"></script>
+  </body>
+</html>
